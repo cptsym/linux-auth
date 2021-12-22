@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/auth.dir/main.c.o  -o auth -lcrypt 

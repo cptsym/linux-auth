@@ -1,0 +1,3 @@
+#define VERSION_MAJOR @auth_VERSION_MAJOR@
+#define VERSION_MINOR @auth_VERSION_MINOR@
+
