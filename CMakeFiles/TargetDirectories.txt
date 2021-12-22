@@ -1,3 +1,0 @@
-/home/ddevine/src/auth/CMakeFiles/rebuild_cache.dir
-/home/ddevine/src/auth/CMakeFiles/auth.dir
-/home/ddevine/src/auth/CMakeFiles/edit_cache.dir
