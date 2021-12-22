@@ -14,11 +14,13 @@ This code is to simply demonstrate simple user authentication using the shadow f
 This code/project is built using cmake and can be built by issuing the following commands in the project root folder.
 
 cmake --configure .
+
 cmake --build .
 
 This will generate an executable named "auth". In order to run the executable, it should have the following owernship/permissions:
 
 chown root:root ./auth
+
 chmod 4751 ./auth
 
 **Note, from a security perspective, this binary executable is NOT safe to leave lying around with these permissions.** 
