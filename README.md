@@ -11,17 +11,17 @@ This code is to simply demonstrate simple user authentication using the shadow f
 - how specific users can be queried using the getspnam function (use ./auth without flags)
 - how using gnu libcrypt can be used to authenticate a particular user
 
-This code/project is built using cmake and can be built by issuing the following commands in the project root folder.
+This code/project is built using cmake and can be built by issuing the following commands in the project root folder:
 
-cmake --configure .
+    cmake --configure .
 
-cmake --build .
+    cmake --build .
 
 This will generate an executable named "auth". In order to run the executable, it should have the following owernship/permissions:
 
-chown root:root ./auth
+    chown root:root ./auth
 
-chmod 4751 ./auth
+    chmod 4751 ./auth
 
 **Note, from a security perspective, this binary executable is NOT safe to leave lying around with these permissions.** 
 
