@@ -1,5 +1,5 @@
 # linux-auth
-This code is to simply demonstrate simple user authentication using the shadow file.
+This code exists to demonstrate simple user authentication using the shadow file.
 
 ## This code is not:
 - perfect/complete
